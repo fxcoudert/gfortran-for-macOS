@@ -1,0 +1,73 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <title>How to install gfortran for Mac</title>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Language" content="en" />
+
+  <style type="text/css">
+  html { padding: 40px; font-family: "Lucida Sans", Verdana, sans-serif; }
+  h1 { font-size: 160%; font-weight: bold; color: rgb(33, 170, 206); margin-bottom: 30px; }
+  a { text-decoration: none; color: rgb(150, 180, 30); }
+  tt { font-family: Inconsolata, Consolas, 'Courier New', Courier, monospace; background-color: #e5e5e5; }
+
+  ul { padding-left: 0px; }
+  ul li { list-style-type: none; }
+	ul li:before {
+		content: "» \0020";
+		font-weight: bold;
+	}
+
+	li { margin-top: 8px; margin-left: 0px; }
+	ol > li { margin-top: 20px; }
+
+  </style>
+
+</head>
+<body>
+
+<h1>How to install gfortran for Mac</h1>
+
+<ol>
+	<li>Install Xcode
+	<ul>
+		<li>Install the Xcode application from the <a href="https://itunes.apple.com/fr/app/xcode/id497799835?mt=12">Mac App Store</a></li>
+		<li>Open the installed Xcode app, agree to the license, and let it install some "compoments"</li>
+	</ul>
+	</li>
+	
+	<li>Install the Xcode command-line tools
+	<ul>
+		<li>Open a terminal window, by clicking on <a href="x-man-page://">this link</a> or opening the Terminal application (Applications > Utilities > Terminal)</li>
+		<li>Type <b><tt>xcode-select --install</tt></b> and follow the dialogs that open</li>
+	</ul>
+	</li>
+
+	<li>Install gfortran itself
+	<ul>
+		<li>Within this package, run the gfortran installer, follow the dialogs</li>
+	</ul>
+	</li>
+	
+	<li>Enjoy!
+	<ul>
+		<li>You now have a full gfortran (in fact, a full GCC) installed in <tt>/usr/local/gfortran</tt></li>
+		<li>In the terminal, you simply type "gfortran" to run the compiler</li>
+	</ul>
+	</li>
+</ol>
+
+
+<h1 style="margin-top: 80px;">Where to find help</h1>
+
+<ul>
+	<li>Basic Fortran information and compiler usage: the <a href="https://groups.google.com/forum/#!forum/comp.lang.fortran">comp.lang.fortran discussion group</a></li>
+	<li>For troubleshooting gfortran (reporting likely bugs, etc.), the <a href="https://gcc.gnu.org/ml/fortran/">gfortran mailing list</a> (here is <a href="https://gcc.gnu.org/lists.html">how to subscribe</a>)</li>
+</ul>
+
+
+</body>
+</html>
+
