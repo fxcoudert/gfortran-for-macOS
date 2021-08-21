@@ -1,5 +1,0 @@
-#!/bin/sh
-
-test -d /usr/local/bin || mkdir -p /usr/local/bin
-test -e /usr/local/bin/gfortran && rm /usr/local/bin/gfortran
-ln -s /usr/local/gfortran/bin/gfortran /usr/local/bin/gfortran
